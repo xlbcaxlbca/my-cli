@@ -1,0 +1,29 @@
+{
+  "name": "my-cli",
+  "version": "1.0.0",
+  "description": "使用cli生成的模板项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "my-cli": "./cmd/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xlbcaxlbca/my-cli.git"
+  },
+  "author": "liubaochang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xlbcaxlbca/my-cli/issues"
+  },
+  "homepage": "https://github.com/xlbcaxlbca/my-cli#readme",
+  "dependencies": {
+    "commander": "^2.17.1",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {
+    "git-clone": "^0.1.0"
+  }
+}
