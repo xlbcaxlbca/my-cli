@@ -8,3 +8,5 @@
 1. 在当前目录运行cmd指令：my-cli
 2. vscode安装依赖: npm i
 3. 运行项目：npm run dev
+
+
